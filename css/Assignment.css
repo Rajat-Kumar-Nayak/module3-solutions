@@ -1,0 +1,146 @@
+body {
+	background-color: #AEB6BF;
+	color: #030303;
+	font-size: 20px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.menu {
+	text-align: center;
+	font-family: 'Russo One', sans-serif;
+	font-size: 50px;
+	font-weight: 900;
+	padding: 30px 30px 0px 30px;
+	color: black;
+}
+
+.menu-div a:hover {
+	text-decoration: none;
+	color:black; 
+}
+
+h1 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.menu-span {
+	font-size: 15px;
+	float: right;
+}
+
+.chicken-div a:hover {
+	text-decoration: none;
+}	 
+.beef-div a:hover {
+	text-decoration: none;
+}
+
+.sushi-div a:hover {
+	text-decoration: none;
+}
+
+.chicken-div {
+	background-color: #FADBD8;
+	margin: 90px;
+	padding: 25px;
+}
+
+.sushi-div {
+	background-color: #D5F5E3;
+	margin: 90px;
+	padding: 25px;
+}
+
+.beef-div {
+	background-color: #E8DAEF;
+	margin: 90px;
+	padding: 25px;
+}
+
+#header-nav {  /*navigation bar*/
+	background-color: #1C2833;
+	border: 0;
+	border-radius: 0;
+	color: #FBFCFC;
+	height: 100px;
+	padding-top: 50px;
+}
+
+.navbar-brand h1 { /*Food,LLC*/
+	font-family: 'Russo One', sans-serif;
+	font-weight: 700;
+	font-size: 80px;
+	color: #2980B9;
+	text-shadow: 2px 2px 2px #FBFCFC;
+	margin-top: -60px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list a{
+	color: #FDFEFE;
+	background-color: #1C2833;
+	opacity: 0.8;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	color: #1C2833;
+	background-color: #D0ECE7;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+	visibility: hidden;
+} 
+
+@media (max-width: 768px) {
+
+body {
+	font-size: 15px;
+}
+
+.menu {
+	font-size: 35px;
+	margin: -20px;
+}
+
+.navbar-brand h1 {
+	font-size: 50px;
+	margin-top: -25px;
+	margin-left: -10px;
+}
+
+#header-nav {
+	padding-top: 20px;
+	height: 70px;
+}
+
+.chicken-div {
+	margin: 40px;
+}
+
+.sushi-div {
+	margin: 40px;
+}
+
+.beef-div {
+	margin: 40px;
+}
+
+#nav-list {
+	visibility: visible;
+} /*navlist ends*/
+
+} /*media query ends*/
+
+
+
+
